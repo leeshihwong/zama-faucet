@@ -1,14 +1,3 @@
-import tkinter as tk
-from tkinter import ttk, messagebox, scrolledtext
-import json
-import time
-import threading
-from datetime import datetime
-import os
-from web3 import Web3
-from eth_account import Account
-import requests
-
 class SepoliaTokenClaimer:
     def __init__(self, root):
         self.root = root
